@@ -1,0 +1,77 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background: url("../img/blur.jpg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #1D2A33;
+}
+
+.cont {
+    min-height: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+header img {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+.kamfoot {
+    float: left;
+    height: 20em;
+    width: auto;
+}
+
+footer p,
+footer h1,
+footer h2 {
+    color: white;
+}
+
+#content {
+    width: 100%;
+    min-height: 300px;
+    color: black;
+}
+
+.bg-1 {
+    background-color: #303030;
+}
+
+.bg-2 {
+    background-color: #1D2A33;
+}
+
+.bg-3 {
+    background-color: whitesmoke;
+}
+
+.bg-4 {
+    background-color: #1D2A33;
+}
