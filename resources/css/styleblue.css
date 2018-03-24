@@ -46,9 +46,9 @@ footer {
 }
 
 .kamfoot {
-    float: left;
-    height: 20em;
-    width: auto;
+    position: relative;
+    height: auto;
+    width: 100%;
 }
 
 footer p,
