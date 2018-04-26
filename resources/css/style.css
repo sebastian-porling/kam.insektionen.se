@@ -33,6 +33,14 @@ a {
     margin-right: auto;
 }
 
+.cont img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .cont h1 {
     text-align: center;
 }
