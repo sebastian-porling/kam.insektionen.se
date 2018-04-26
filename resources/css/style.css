@@ -26,8 +26,20 @@ header {
     padding-bottom: 0;
 }
 
+.cont p,
+a {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .cont h1 {
     text-align: center;
+}
+
+#companys img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header img {
