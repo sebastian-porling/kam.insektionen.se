@@ -2,8 +2,8 @@ body,
 html {
     height: 100%;
     margin: 0;
-    background-color: #44687D;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,8 +25,32 @@ header {
     padding-left: 10%;
     padding-right: 10%;
     margin: 0;
-    padding-top: 0;
+    padding-top: 10px;
     padding-bottom: 0;
+}
+
+.cont p,
+a {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont h1 {
+    text-align: center;
+}
+
+#companys img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header img {
@@ -43,18 +67,28 @@ footer {
     height: auto;
     overflow: auto;
     padding: 20px;
+    text-align: center;
 }
 
-.kamfoot {
-    position: relative;
-    height: auto;
+footer img {
+    display: block;
     width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer p,
 footer h1,
 footer h2 {
     color: white;
+}
+
+@media screen and (max-width: 500px) {
+    footer h1 {
+        font-size: 5vw;
+    }
 }
 
 #content {
@@ -77,4 +111,8 @@ footer h2 {
 
 .bg-4 {
     background-color: #1D2A33;
+}
+
+.flag {
+    margin-right: 20px;
 }

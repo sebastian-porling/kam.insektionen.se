@@ -26,6 +26,14 @@ header {
     padding-bottom: 0;
 }
 
+@media screen and (min-width: 768px) {
+    .navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 .cont p,
 a {
     max-width: 900px;
@@ -82,8 +90,10 @@ footer h2 {
     color: white;
 }
 
-footer h1 {
-    font-size: 5vw;
+@media screen and (max-width: 500px) {
+    footer h1 {
+        font-size: 5vw;
+    }
 }
 
 #content {
