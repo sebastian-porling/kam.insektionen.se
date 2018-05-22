@@ -13,6 +13,12 @@ header {
     background-size: cover;
 }
 
+.background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navbar {
     background-color: #1D2A33;
 }
